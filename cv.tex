@@ -1,0 +1,185 @@
+% Jason R. Blevins - Curriculum Vitae
+%
+% Copyright (C) 2004-2010 Jason R. Blevins
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely.  No attribution is
+% required in any resulting documents.  I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Fonts
+\usepackage[T1]{fontenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[scaled=0.85]{beramono}
+
+% Set your name here
+\def\name{Joshua Branchaud}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets and compact spacing
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}[t]{0.5\textwidth}
+  4929 N. 32nd St. \\
+  Apt. 3B \\
+  Lincoln, NE 68504
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  Mobile: (402) 660 1656 \\
+  Email: jbranchaud@gmail.com \\
+\end{minipage}
+
+\section*{Objective}
+
+\begin{itemize}
+    \item Seeking a summer internship with Google for the summer of 2012.
+\end{itemize}
+
+\section*{Education}
+
+\begin{itemize}
+  % Dec 18, 2010
+  \item High School Diploma, Millard North High School, Omaha NE, May 2007.
+
+  \item B.S. in Computer Science, University of Nebraska-Lincoln, May 2011.
+
+    \begin{itemize}
+        \item \textit{Minors:} Mathematics and Spanish
+    \end{itemize}
+    
+    \item M.S. in Computer Science, University of Nebraska-Lincoln, May 2013.
+
+\end{itemize}
+
+\section*{Experience}
+
+%\subsection*{University of Nebraska Lincoln, Department of Computer Science}
+%\subsection*{Undergraduate Research Assistant, Dr. Anita Sarma, UNL, January 2010--Present}
+\subsection*{Research Experience - University of Nebraska-Lincoln, Department of Computer Science}
+
+\begin{itemize}
+\item Graduate Research Assistant, Dr. Anita Sarma, August 2011--present.
+	\begin{itemize}
+	\item Developing an Impact Analysis technique to be used for real-time workspace awareness
+	\item Continuing to update Palantir as was done in undergraduate research
+	\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item Undergraduate Research Assistant, Dr. Anita Sarma, January 2010--August 2011.
+	\begin{itemize}
+	\item Updated Palantir, a workspace awareness tool, written in Java as an Eclipse plug-in
+	\item Read research papers on similar tools and wrote technical reviews on those papers
+	\end{itemize}
+\end{itemize}
+
+\subsection*{Teaching Experience - University of Nebraska-Lincoln, Department of Computer Science}
+
+\begin{itemize}
+\item Teaching Assistant for CSE361 (Software Engineering), Dr. Anita Sarma, August 2011--present.
+	\begin{itemize}
+	\item Developing semester project, assisting in class, grading assignments, and holding office hours
+	\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item Teaching Assistant for CSE155 (Introduction to CS), Jeremy Suing, January 2010--May 2010.
+	\begin{itemize}
+	\item Assisted in lab sections, graded Java assignments, and held office hours
+	\end{itemize}
+\end{itemize}
+
+\subsection*{Work Experience}
+
+\begin{itemize}
+	\item Software Developer, NASA and Google Summer of Code, May 2011--August 2011
+	\begin{itemize}
+		\item Extended DiSE, a software verification tool, from intraprocedural to interprocedural
+		\item Developed Java examples for testing the tool
+		\item Work on this project is continuing into the Fall of 2011 outside of GSoC
+	\end{itemize}
+    \item Web Assistant, Kaul Design Group, August 2010--Present.
+	\begin{itemize}
+	\item Update Joomla!-based webpages
+	\item Modify HTML and CSS documents
+	\end{itemize}
+\end{itemize}
+
+\section*{Miscellaneous}
+
+\begin{itemize}
+    \item President of Beta Sigma Psi Fraternity, January 2009--January 2011
+    \item Participated in the 2010 ACM Regional Programming Competition
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{small}
+    Last updated: \today
+  \end{small}
+\end{center}
+
+\end{document}
