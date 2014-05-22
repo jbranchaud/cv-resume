@@ -2,11 +2,13 @@
 
 because I'm qualified.
 
-## Current CV
+## Built CVs and Résumés
+
+### Current CV
 
 - Download [YAGM-2013-CV.pdf](https://github.com/jbranchaud/cv-resume/raw/master/yagm2013/YAGM-2013-CV.pdf)
 
-## Past CVs
+### Past CVs
 
 - Download [Google-Internship-2012-CV.pdf](https://github.com/jbranchaud/cv-resume/raw/master/google2012/Google-Internship-2012-CV.pdf)
 
