@@ -1,4 +1,4 @@
-# CV/Resume
+# CV/Résumé
 
 because I'm qualified.
 
