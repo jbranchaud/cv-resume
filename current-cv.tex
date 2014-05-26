@@ -1,0 +1,230 @@
+% Jason R. Blevins - Curriculum Vitae
+%
+% Copyright (C) 2004-2010 Jason R. Blevins
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely.  No attribution is
+% required in any resulting documents.  I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{comment}
+
+% Fonts
+\usepackage[T1]{fontenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[scaled=0.85]{beramono}
+
+% Set your name here
+\def\name{Joshua Branchaud}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets and compact spacing
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}[t]{0.5\textwidth}
+  15819 Howard St. \\
+  Omaha, NE 68118
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  Mobile: (402) 660 1656 \\
+  Email: jbranchaud@gmail.com \\
+  Website: joshbranchaud.com \\
+\end{minipage}
+
+% If this is for a specific job or type of job, include this objective
+% section with a purpose or objective statement explaining what this resume
+% is for. For example,
+% "Seeking a position as a software engineer doing both front-end and
+% back-end development"
+
+%\section*{Objective}
+%
+%\begin{itemize}
+%\end{itemize}
+
+\section*{Education}
+
+\begin{itemize}
+  % Dec 18, 2010
+  \item High School Diploma, Millard North High School, Omaha NE, May 2007.
+
+  \item B.S. in Computer Science, University of Nebraska-Lincoln, May 2011.
+
+    \begin{itemize}
+        \item \textit{Minors:} Mathematics and Spanish
+    \end{itemize}
+    
+    \item M.S. in Computer Science, University of Nebraska-Lincoln, In
+    progress.
+
+\end{itemize}
+
+\section*{Experience}
+
+
+\begin{itemize}
+\item \textbf{Full-time Volunteer, August 2013--July 2014}
+\item \emph{Young Adults in Global Mission of the ELCA, Grand Bourg, Buenos Aires, Argentina}
+	\begin{itemize}
+    \item Accompanied the community of Congregation San Lucas, including
+    administrative duties, youth and children's activities, and technology
+    training and consulting
+    \item Facilitated skill-building workshops and taught computer skills at
+    a vocational center for differently-abled adults
+    \item Partnered with a neighborhood school to provide after-school
+    English language instruction and conversation
+	\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Graduate Research Assistant, August 2011--August 2013}
+\item \emph{University of Nebraska-Lincoln, Department of Computer Science, advised by Dr. Anita Sarma}
+	\begin{itemize}
+	\item Developing an Impact Analysis technique to be used for real-time workspace awareness
+	\item Continuing to update Palantir as was done in undergraduate research
+	\end{itemize}
+\end{itemize}
+
+% Commented Out This Experience Item
+\begin{comment}
+\begin{itemize}
+\item \textbf{Host and Fellowship Coordinator, August 2012--July 2013}
+\item \emph{Lutheran Student Center (ELCA), University of Nebraska-Lincoln}
+    \begin{itemize}
+    \item Clean and maintain the Lutheran Student Center building
+    \item Engage students with fun fellowship opportunities such as movie nights and pool leagues
+    \end{itemize}
+\end{itemize}
+\end{comment}
+
+\begin{itemize}
+\item \textbf{Student Intern, May 2012--August 2012}
+\item \emph{Formal Methods Group, NASA Langley, Hampton, VA, advised by Dr. Suzette Person}
+    \begin{itemize}
+    \item Designed and implemented a framework that brings program analysis to a variety of client applications
+    \item Worked on a strategy for efficiently analyzing heap allocated
+        memory during symbolic execution
+    \end{itemize}
+\end{itemize}
+
+% Commented Out This Experience Item
+\begin{comment}
+\begin{itemize}
+\item \textbf{Teaching Assistant for CSE361 (Software Engineering), August 2011--December 2011}
+\item \emph{University of Nebraska-Lincoln, Department of Computer Science}
+	\begin{itemize}
+    \item Developed a semester project, assisted in class, graded assignments
+	\end{itemize}
+\end{itemize}
+\end{comment}
+
+\begin{itemize}
+\item \textbf{Undergraduate Research Assistant, January 2010--August 2011}
+\item \emph{University of Nebraska-Lincoln, Department of Computer Science, advised by Dr. Anita Sarma}
+	\begin{itemize}
+	\item Updated Palantir, a workspace awareness tool, written in Java as an Eclipse plug-in
+	\item Read research papers on similar tools and wrote technical reviews on those papers
+	\end{itemize}
+\end{itemize}
+
+%\begin{itemize}
+%\item Teaching Assistant for CSE155 (Introduction to CS), January 2010--May 2010
+%\item \emph{University of Nebraska-Lincoln, Department of Computer Science}
+%	\begin{itemize}
+%	\item Assisted in lab sections, graded Java assignments, and held office hours
+%	\end{itemize}
+%\end{itemize}
+
+%\begin{itemize}
+%	\item Software Developer, NASA and Google Summer of Code, May 2011--August 2011
+%	\begin{itemize}
+%		\item Extended DiSE, a software verification tool, from intraprocedural to interprocedural
+%		\item Developed Java examples for testing the tool
+%		\item Work on this project is continuing into the Fall of 2011 outside of GSoC
+%	\end{itemize}
+%    \item Web Assistant, Kaul Design Group, August 2010--Present.
+%	\begin{itemize}
+%	\item Update Joomla!-based webpages
+%	\item Modify HTML and CSS documents
+%	\end{itemize}
+%\end{itemize}
+
+\section*{Miscellaneous}
+
+\begin{itemize}
+    \item Co-founder of Lincoln's Beer and Code meetup (2012--present)
+    \item Participated in mission work in Mexico (2004-2007) and Haiti (2010)
+    \item President of Beta Sigma Psi Fraternity, January 2009--January 2011
+    \item Participated in the 2010 ACM Regional Programming Competition
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{small}
+    Last updated: \today
+  \end{small}
+\end{center}
+
+\end{document}
